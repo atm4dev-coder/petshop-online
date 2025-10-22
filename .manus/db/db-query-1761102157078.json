@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO categories (name, slug, description, icon, image) VALUES\n('Alimentos', 'alimentos', 'Rações e alimentos para cães e gatos', '🍖', '/images/products/food.jpg'),\n('Brinquedos', 'brinquedos', 'Brinquedos e acessórios para diversão', '🎾', '/images/products/toys.jpg'),\n('Acessórios', 'acessorios', 'Coleiras, coletes e acessórios', '🎀', '/images/products/accessories.jpg'),\n('Higiene', 'higiene', 'Produtos de higiene e limpeza', '🧼', '/images/products/hygiene.jpg'),\n('Camas', 'camas', 'Camas e almofadas confortáveis', '🛏️', '/images/products/beds.jpg');",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user epTrG48iJV5aocx.root --database boCPQKhY9zUmEzkEGRtqhb --execute INSERT INTO categories (name, slug, description, icon, image) VALUES\n('Alimentos', 'alimentos', 'Rações e alimentos para cães e gatos', '🍖', '/images/products/food.jpg'),\n('Brinquedos', 'brinquedos', 'Brinquedos e acessórios para diversão', '🎾', '/images/products/toys.jpg'),\n('Acessórios', 'acessorios', 'Coleiras, coletes e acessórios', '🎀', '/images/products/accessories.jpg'),\n('Higiene', 'higiene', 'Produtos de higiene e limpeza', '🧼', '/images/products/hygiene.jpg'),\n('Camas', 'camas', 'Camas e almofadas confortáveis', '🛏️', '/images/products/beds.jpg');",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 447
+}
