@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "PetShop Online",
+    "slug": "petshop-online",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./client/public/logo.svg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./client/public/logo.svg",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFA500"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./client/public/logo.svg",
+        "backgroundColor": "#FFA500"
+      }
+    },
+    "web": {
+      "favicon": "./client/public/favicon.ico",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": false,
+          "asyncRoutes": false
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
+
