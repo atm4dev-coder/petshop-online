@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: petshop-online-api
+    env: node
+    plan: free
+    buildCommand: pnpm install && pnpm build
+    startCommand: pnpm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: VITE_APP_ID
+        value: production-app-id
+      - key: OAUTH_SERVER_URL
+        value: https://api.manus.im
+      - key: VITE_OAUTH_PORTAL_URL
+        value: https://login.manus.im
+      - key: VITE_APP_TITLE
+        value: PetShop Online
+      - key: VITE_APP_LOGO
+        value: /logo.svg
+
